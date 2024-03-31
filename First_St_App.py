@@ -15,6 +15,15 @@ pd.DataFrame({
   })
 )
 
+st.write("My second DataFrame - Display using table") 
+
+df_city = pd.DataFrame({
+    'Karnataka Districts': ['Bagalkot','Bengaluru','Belagavi','Ballari','Bidar','Raichur'],
+    'Colleges': ["BIT", "RV", "GIT", "BEIT", "APPA", "GEC"]
+    })
+
+st.table(df_city)
+
 st.subheader("Basic APP Components")
 
 st.write("My first Radio Button")
