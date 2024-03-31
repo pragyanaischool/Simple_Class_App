@@ -125,12 +125,15 @@ options_1 = st.multiselect(
 
 st.write('You selected:', options_1)
 
+st.subheader("Side Bar Info")
+
 st.sidebar.text("Please Enter Your name")
 name = st.sidebar.text_input("Your name", key="name")
 st.sidebar.write("your name is", name)
 
 st.sidebar.checkbox("Side Panel Checkbox")
 
+st.subheader("Col creation Demo")
 
 col1, col2, col3, col4 = st.columns(4)
 col1.write('Column 1 - Display')
