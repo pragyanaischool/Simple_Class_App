@@ -116,10 +116,10 @@ st.write("Completed")
 
 # Usage of multiselect widget
 
-options = st.multiselect(
+options_1 = st.multiselect(
     'What are your favorite colors, citys',
     ['Green', 'Yellow', 'Red', 'Blue'],
     ['Yellow', 'Red'],
-['Bagalkot','Bengaluru','Belagavi','Ballari','Bidar','Raichur'])
+ ['Bagalkot','Bengaluru','Belagavi','Ballari','Bidar','Raichur'])
 
-st.write('You selected:', options)
+st.write('You selected:', options_1)
