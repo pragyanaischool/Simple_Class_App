@@ -99,3 +99,16 @@ st.write("Slide with Min and Max")
 
 slider_value = st.slider("Slider", min_value=0.5, max_value=9.5)
 st.text(f"Slider value is {slider_value} and its double is {slider_value*slider_value}" )
+
+
+# Add a placeholder
+latest_iteration = st.empty()
+bar = st.progress(0)
+
+for i in range(100):
+  # Update the progress bar with each iteration.
+  latest_iteration.text(f'Iteration {i+1}')
+  bar.progress(i + 1)
+  time.sleep(0.1)
+
+st.write("Completed")
