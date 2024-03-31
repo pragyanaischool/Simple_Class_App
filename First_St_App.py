@@ -141,8 +141,20 @@ col2.write('Column 2 - Display')
 col3.write('Column 3 - Display')
 col4.write('Column 4 - Display')
 
+st.subheader("Basic User Input Reading Functionalities")
+
 num= st.sidebar.number_input('Enter a phone number')
 st.sidebar.write("Your Number is",num)
 
 txt = st.text_area('Area for textual entry')
 st.write(txt)
+
+jdate = st.date_input('Enter your Joining Date')
+st.write("Thanks for joining on", jdate)
+
+jtime = st.time_input('Time of joing ')
+st.write("Your are joined on Very Auspicious Time", jtime)
+
+fl = st.file_uploader('Upload the Image')
+
+st.download_button('On the download the image', fl)
