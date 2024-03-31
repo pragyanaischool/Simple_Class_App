@@ -15,6 +15,8 @@ pd.DataFrame({
   })
 )
 
+st.subheader("Basic APP Components")
+
 st.write("My first Radio Button")
 
 genre = st.radio(
