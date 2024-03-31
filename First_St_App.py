@@ -54,6 +54,13 @@ df = pd.DataFrame({
 
 option = st.selectbox(
     'Which number do you like best?',
+     df['first column'])
+
+'You selected: ', option
+
+'''
+option = st.selectbox(
+    'Which number do you like best?',
      'first_column', 
      'second_column'
 )
@@ -61,3 +68,5 @@ if option = "first_column":
     st.write(df['first column']
 else:
     st.write(df['second column']
+
+'''
