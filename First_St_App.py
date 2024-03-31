@@ -31,3 +31,8 @@ elif genre == 'Documentary':
     st.write('You selected Documentary.')
 else:
     st.write("You didn't select comedy.")
+
+st.write("My CheckBox Experience")
+
+if st.checkbox("Main Checkbox"):
+    st.text("Check Box Active")
