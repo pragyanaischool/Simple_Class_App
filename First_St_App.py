@@ -90,6 +90,8 @@ option1 = st.selectbox(
 
 st.subheader("Basic Widgets of Streamlit")
 
+st.write("My first Slider")
+
 x = st.slider('x')  # 👈 this is a widget
 st.write(x, 'squared is', x * x)
 
