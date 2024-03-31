@@ -46,3 +46,18 @@ if st.checkbox('Show dataframe'):
 
     #chart_data
     st.write(chart_data)
+
+df = pd.DataFrame({
+    'first column': [1, 2, 3, 4],
+    'second column': [10, 20, 30, 40]
+    })
+
+option = st.selectbox(
+    'Which number do you like best?',
+     'first_column', 
+     'second_column'
+)
+if option = "first_column":
+    st.write(df['first column']
+else:
+    st.write(df['second column']
