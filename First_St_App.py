@@ -87,15 +87,9 @@ option1 = st.selectbox(
 
 'You selected: ', option1
 
-'''
-option = st.selectbox(
-    'Which number do you like best?',
-     'first_column', 
-     'second_column'
-)
-if option = "first_column":
-    st.write(df['first column']
-else:
-    st.write(df['second column']
 
-'''
+st.subheader("Basic Widgets of Streamlit")
+
+x = st.slider('x')  # 👈 this is a widget
+st.write(x, 'squared is', x * x)
+
