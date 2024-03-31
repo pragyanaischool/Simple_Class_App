@@ -1,6 +1,7 @@
 import pandas as pd
 import streamlit as st
 import numpy as np
+import time
 
 st.title("Hi This is my First Streamlit App!")
 
