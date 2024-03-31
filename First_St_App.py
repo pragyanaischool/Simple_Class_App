@@ -36,3 +36,13 @@ st.write("My CheckBox Experience")
 
 if st.checkbox("Main Checkbox"):
     st.text("Check Box Active")
+
+st.write("Display Dataframe, after Checking Box")
+
+if st.checkbox('Show dataframe'):
+    chart_data = pd.DataFrame(
+       np.random.randn(20, 3),
+       columns=['a', 'b', 'c'])
+
+    #chart_data
+    st.write(chart_data)
