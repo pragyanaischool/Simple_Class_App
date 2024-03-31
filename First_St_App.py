@@ -56,16 +56,27 @@ st.write("Display Dataframe, after Checking Box")
 
 if st.checkbox('First Column'):
     st.write(df['first column'])
-elif st.checkbox('Secon Column'):
+elif st.checkbox('Second Column'):
     st.write(df['second column'])
 
 st.write("Select Box")
 
+df = pd.DataFrame({
+    'Karnataka Districts': ['Bagalkot','Bengaluru','Belagavi','Ballari','Bidar','Raichur'],
+    'Colleges': ["BIT", "RV", "GIT", "BEIT", "APPA", "GEC"]
+    })
+
 option = st.selectbox(
-    'Which number do you like best?',
-     df['first column'])
+    'Which City you do you like best?',
+     df['Karnataka Districts'])
 
 'You selected: ', option
+
+option1 = st.selectbox(
+    'Which College you do you like best?',
+     df['Colleges'])
+
+'You selected: ', option1
 
 '''
 option = st.selectbox(
