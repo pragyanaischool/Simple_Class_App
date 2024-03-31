@@ -14,3 +14,18 @@ pd.DataFrame({
     'D': [3, 2, 4, 8],
   })
 )
+
+st.write("My first Radio Button")
+
+genre = st.radio(
+    "What's your favorite movie genre",
+    ('Comedy', 'Drama', 'Documentary'))
+
+if genre == 'Comedy':
+    st.write('You selected comedy.')
+elif genre == 'Drama':
+    st.write('You selected Drama.')
+elif genre == 'Documentary':
+    st.write('You selected Documentary.')
+else:
+    st.write("You didn't select comedy.")
