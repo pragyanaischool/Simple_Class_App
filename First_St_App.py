@@ -125,5 +125,7 @@ options_1 = st.multiselect(
 
 st.write('You selected:', options_1)
 
-st.sidebar.text("text on side panel")
+st.sidebar.text("Please Enter Your name")
+txt = st.sidebar.text_input("Your name", key="name")
+st.write("your name", txt)
 st.sidebar.checkbox("Side Panel Checkbox")
