@@ -52,6 +52,15 @@ df = pd.DataFrame({
     'second column': [10, 20, 30, 40]
     })
 
+st.write("Display Dataframe, after Checking Box")
+
+if st.checkbox('First Column'):
+    st.write(df['first column']
+elif st.checkbox('Secon Column'):
+    st.write(df['second column']
+
+st.write("Select Box")
+
 option = st.selectbox(
     'Which number do you like best?',
      df['first column'])
