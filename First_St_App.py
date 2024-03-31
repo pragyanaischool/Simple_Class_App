@@ -118,7 +118,8 @@ st.write("Completed")
 
 options_1 = st.multiselect(
     'What are your favorite colors and citys',
-    ['Green', 'Yellow', 'Red', 'Blue'],['Yellow', 'Red', 'Orange']
+    ['Green', 'Yellow', 'Red', 'Blue'],
+    ['Yellow', 'Red', 'Green'],
     ['Yellow', 'Red'])
     #)
 
