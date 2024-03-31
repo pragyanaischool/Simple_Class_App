@@ -130,3 +130,10 @@ name = st.sidebar.text_input("Your name", key="name")
 st.sidebar.write("your name is", name)
 
 st.sidebar.checkbox("Side Panel Checkbox")
+
+
+col1, col2, col3, col4 = st.columns(4)
+col1.write('Column 1 - Display')
+col2.write('Column 2 - Display')
+col3.write('Column 3 - Display')
+col4.write('Column 4 - Display')
