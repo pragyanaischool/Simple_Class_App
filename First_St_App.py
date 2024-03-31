@@ -125,7 +125,7 @@ options_1 = st.multiselect(
 
 st.write('You selected:', options_1)
 
-st.subheader("Side Bar Info")
+st.sidebar.subheader("Side Bar Info")
 
 st.sidebar.text("Please Enter Your name")
 name = st.sidebar.text_input("Your name", key="name")
