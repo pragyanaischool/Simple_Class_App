@@ -113,3 +113,13 @@ for i in range(100):
   time.sleep(0.1)
 
 st.write("Completed")
+
+# Usage of multiselect widget
+
+options = st.multiselect(
+    'What are your favorite colors, citys',
+    ['Green', 'Yellow', 'Red', 'Blue'],
+    ['Yellow', 'Red'],
+['Bagalkot','Bengaluru','Belagavi','Ballari','Bidar','Raichur'])
+
+st.write('You selected:', options)
