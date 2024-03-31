@@ -140,3 +140,9 @@ col1.write('Column 1 - Display')
 col2.write('Column 2 - Display')
 col3.write('Column 3 - Display')
 col4.write('Column 4 - Display')
+
+num= st.sidebar.number_input('Enter a phone number')
+st.sidebar.write("Your Number is",num)
+
+txt = st.text_area('Area for textual entry')
+st.write(txt)
