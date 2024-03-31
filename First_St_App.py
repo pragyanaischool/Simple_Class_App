@@ -95,3 +95,7 @@ st.write("My first Slider")
 x = st.slider('x')  # 👈 this is a widget
 st.write(x, 'squared is', x * x)
 
+st.write("Slide with Min and Max")
+
+slider_value = st.slider("Slider", min_value=0.5, max_value=9.5)
+st.text(f"Slider value is {slider_value} and its double is", slider_value*slider_value)
