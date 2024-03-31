@@ -124,3 +124,6 @@ options_1 = st.multiselect(
     #)
 
 st.write('You selected:', options_1)
+
+st.sidebar.text("text on side panel")
+st.sidebar.checkbox("Side Panel Checkbox")
