@@ -55,9 +55,9 @@ df = pd.DataFrame({
 st.write("Display Dataframe, after Checking Box")
 
 if st.checkbox('First Column'):
-    st.write(df['first column']
+    st.write(df['first column'])
 elif st.checkbox('Secon Column'):
-    st.write(df['second column']
+    st.write(df['second column'])
 
 st.write("Select Box")
 
